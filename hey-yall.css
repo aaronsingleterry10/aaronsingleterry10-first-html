@@ -8,4 +8,43 @@ h3 {
 
 body {
     background: linear-gradient(35deg, #ccffff, #cccfff, #ffcccc);
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    margin-top: 50px;
+    border: 1px solid #cd5c5c;
+    border-radius: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    float: left;
+
+}
+
+#box1 {
+    background: linear-gradient(35deg, #fffff0, #4b0082);
+}
+
+#box2 {
+   background: linear-gradient(35deg, #00ffff, #ffa500);
+}
+
+#box3 {
+    background: linear-gradient(35deg, #faebd7, #7fffd4);
+}
+
+#box4 {
+    background: linear-gradient(35deg, #006400, #bdb76b	);
+    clear: left;
+}
+
+#box5 {
+    background: linear-gradient(35deg, #00ced1, #9400d3);
+}
+
+#box6 {
+    background: linear-gradient(35deg, #8fbc8f, #e9967a);
 }
