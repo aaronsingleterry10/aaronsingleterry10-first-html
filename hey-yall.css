@@ -12,6 +12,24 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+img {
+    width: 150px;
+    border-radius: 25%;
+}
+
+table, th, td {
+    table-layout: fixed;
+    border: 1px solid black
+}
+
+table {
+    width: 35%;
+}
+
+th {
+    height: 35px;
+}
+
 .box {
     width: 75px;
     height: 75px;
@@ -47,4 +65,8 @@ body {
 
 #box6 {
     background: linear-gradient(35deg, #8fbc8f, #e9967a);
+}
+
+.box:hover {
+    transform: scale(1.5);
 }
