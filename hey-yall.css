@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+ul.none {
+    list-style-type: none;
+}
+
 h3 {
     text-decoration: underline;
 }
@@ -18,7 +22,7 @@ img {
     border-radius: 25%;
 }
 
-ul {
+ul.square {
     list-style: square;
 }
 
