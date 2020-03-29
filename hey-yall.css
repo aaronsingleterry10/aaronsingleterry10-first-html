@@ -1,5 +1,6 @@
 h1 {
     text-decoration: underline overline;
+    text-align: center;
 }
 
 h3 {
@@ -15,6 +16,14 @@ body {
 img {
     width: 150px;
     border-radius: 25%;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style-type: lower-alpha;
 }
 
 table, th, td {
