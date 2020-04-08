@@ -3,28 +3,34 @@ h1 {
     text-align: center;
 }
 
+/* ------Nav Bar------- */
+
 ul.none {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #474747;
     overflow: hidden;
+
 }
 
 li a {
     display: block;
     padding: 12px;
+    border-right: 1px solid #000;
 
+}
+
+li a:hover {
+    background-color: #968d89;
 }
 
 nav li {
     float: left;
+    color: #ffffff;
 }
 
-.clearleft {
-    clear: left;
-    margin-top: 10px;
-}
+/* ------------------------*/
 
 h3 {
     text-decoration: underline;
