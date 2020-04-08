@@ -1,3 +1,15 @@
 * {
     box-sizing: border-box;
 }
+
+.container {
+    border: 1px solid black;
+    display: grid;
+}
+
+.box {
+    border: 1px solid black;
+    height: 8em;
+    width: 8em;
+}
+
